@@ -1,0 +1,21 @@
+.Mainwrapper{
+    background-image: url("../../Assests/240_F_53674741_xai5iYI2hPvlrTvtvJSFTAegeZ3TUKFH.jpg");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+      height: 100vh;
+      width: 100vw;
+    position: relative;
+}
+.regForm{
+    position: absolute;
+    top: 250px;
+    left: 191px;
+}
+@media (max-width: 768px) {
+  .regForm {
+    position: static; /* Reset position for small screens */
+    margin-top: 20px; /* Adjust margin or padding for spacing */
+    margin-left: 0; /* Reset left margin for small screens */
+  }
+}

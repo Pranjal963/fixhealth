@@ -1,0 +1,75 @@
+/* regiform.module.css */
+
+.mainDiv {
+    background-color: #beb2b2;
+    width: 350px;
+    height: 370px;
+    margin: 20px; /* Add margin from all sides */
+    padding-top: 4px;
+
+  }
+  
+  .InnerDiv {
+    text-align: center;
+    margin: 20px; /* Add margin from all sides */
+    height: 325px;
+    padding-top: 5px;
+    background-color: whitesmoke;
+    color: #0f0e0e;
+  }
+  
+  .formInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .formInputs input,
+  .formInputs .phoneLogo {
+    border: none;
+    background-color: transparent;
+    outline: none; /* Remove the outline on focus */
+    height: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: calc(100% - 20px); /* Adjust the width to fit the container */
+  }
+  
+  .inputWithLogo,
+  .inputWithUnderline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    border: solid 2px black;
+    width: 250px;
+  }
+  
+  .logoIcon,
+  .phoneLogo {
+    width: 30px; /* Adjust the width based on the size of your icons */
+    height:10px;
+    margin-right: 10px;
+  }
+  
+  /* .inputWithLogo .phoneLogo {
+    margin-right: 10px;
+  } */
+  
+  .submitButton {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  .logoImage {
+    width: 200px; /* Set the desired width for the new logo */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 10px;
+  }
+  

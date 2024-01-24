@@ -1,0 +1,18 @@
+.wrapper{
+    margin-top: 140px;
+    
+    }
+    .navigation{
+        display: flex;
+        gap: 3px;
+    }
+    
+    .heading >h2{
+    
+        font-size: 54px;
+        font-weight: 600;
+        width: 100%;
+        margin-bottom: 35px;
+        text-align: center;
+    color: white;
+    }

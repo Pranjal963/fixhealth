@@ -1,0 +1,25 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+padding: 20px;
+background-color: black;
+color: white;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+width: 25%;
+font-size: medium;
+font-weight: 500;
+
+}
+@media (max-width: 768px) {
+    .Navbar {
+      flex-direction: column; /* Change to a column layout for small screens */
+      align-items: center; /* Center align items for small screens */
+      width: 100%; /* Full width for small screens */
+      margin-top: 10px; /* Adjust margin or padding for spacing */
+    }
+  }

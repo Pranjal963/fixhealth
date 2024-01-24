@@ -1,0 +1,29 @@
+:root {
+  --color-primary:#E3B748;
+  --color-white:#ffffff;
+  --color-black:#121212;
+  }
+  *,
+  *::before,
+  ::after{
+    box-sizing: border-box;
+  }
+  
+  *{
+    margin: 0;
+  }
+  .swiper-slide{
+    width: auto !important;
+  }
+  
+  html,body{
+  height: 100%;
+  /* background-color: rgba(17, 17, 17, 1);
+  color: var(--color-white); */
+  font-family: "inter" , sans-serif;
+  }
+  img,svg{
+    display: block;
+    max-width: 100%;
+  }
+  
